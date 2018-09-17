@@ -28,12 +28,10 @@ function redValue() {
     inputColor[0] = map(this.value(), 0, 100, 0, 255)
 }
 
-
-function blueValue() {
+function greenValue() {
     inputColor[1] = map(this.value(), 0, 100, 0, 255)
 }
 
-
-function greenValue() {
+function blueValue() {
     inputColor[2] = map(this.value(), 0, 100, 0, 255)
 }
